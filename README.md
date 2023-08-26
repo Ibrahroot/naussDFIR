@@ -1,2 +1,48 @@
 # naussDFIR
-nauss DFIR tool lite is a PowerShell-based Digital Forensic and Incident Response (DFIR) tool designed to assist security analysts and enthusiasts with various DFIR-related tasks.
+Nauss DFIR tool lite is a PowerShell-based Digital Forensic and Incident Response (DFIR) tool designed to assist security analysts and enthusiasts with various DFIR-related tasks.
+
+Certainly! Here's a basic `README.md` for the "nauss DFIR tool lite". You can expand upon this as necessary:
+
+---
+
+
+## Features
+
+1. **Hash Search via VirusTotal**: Quickly retrieve a report from VirusTotal for a given hash.
+2. **DNS/IP Search via SecurityTrails**: Get subdomains and historical data for specified domains using SecurityTrails API.
+3. **Active Network Connections Analysis using AbuseIPDB**: Fetch active network connections and check their reputation against AbuseIPDB.
+
+## Usage
+
+1. Clone the repository to your local machine.
+2. Navigate to the tool's directory and run the script using PowerShell.
+3. Follow the on-screen prompts.
+
+```PowerShell
+powershell -ExecutionPolicy Bypass -File .\nauss.ps1
+```
+
+## Prerequisites
+
+1. PowerShell (Pre-installed on Windows systems)
+2. Internet connection to interact with the APIs.
+
+## Configuration
+
+API keys for VirusTotal, SecurityTrails, and AbuseIPDB are required for the respective functionalities. Ensure you have these keys and configure them in the script or in a separate configuration file.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT License](LICENSE)
+
+## Disclaimer
+
+This tool is for educational purposes only. Ensure you have the necessary permissions before scanning or fetching data from third-party sources.
+
+---
+
+Remember to add an actual `LICENSE` file if you link to it in the README. The MIT License is a common choice for open-source projects, but you should choose the license that you feel is the most appropriate for your project.
