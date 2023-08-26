@@ -1,10 +1,6 @@
-# naussDFIR
-Nauss DFIR tool lite is a PowerShell-based Digital Forensic and Incident Response (DFIR) tool designed to assist security analysts and enthusiasts with various DFIR-related tasks.
+# nauss DFIR tool lite
 
-Certainly! Here's a basic `README.md` for the "nauss DFIR tool lite". You can expand upon this as necessary:
-
----
-
+`nauss DFIR tool lite` is a PowerShell-based Digital Forensic and Incident Response (DFIR) tool designed to assist security analysts and enthusiasts with various DFIR-related tasks. The tool currently supports searching for hashes via VirusTotal, DNS/IP searches via SecurityTrails, and active network connections analysis using AbuseIPDB.
 
 ## Features
 
@@ -18,7 +14,7 @@ Certainly! Here's a basic `README.md` for the "nauss DFIR tool lite". You can ex
 2. Navigate to the tool's directory and run the script using PowerShell.
 3. Follow the on-screen prompts.
 
-```PowerShell
+```powershell
 powershell -ExecutionPolicy Bypass -File .\nauss.ps1
 ```
 
@@ -45,4 +41,8 @@ This tool is for educational purposes only. Ensure you have the necessary permis
 
 ---
 
-Remember to add an actual `LICENSE` file if you link to it in the README. The MIT License is a common choice for open-source projects, but you should choose the license that you feel is the most appropriate for your project.
+### Connect with the Developer:
+- [Twitter](https://twitter.com/ib_root)
+- [LinkedIn](https://www.linkedin.com/in/iocs)
+
+---
