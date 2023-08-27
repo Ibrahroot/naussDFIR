@@ -1,3 +1,12 @@
+
+![Logo](imglogo.png)
+
+[![Threat-Analyzer](https://img.shields.io/badge/nauss-DFIR-red)](https://github.com/Ibrahroot/naussDFIR/)
+[![Version](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/Ibrahroot/naussDFIR/)
+[![License](https://img.shields.io/badge/license-GPL-blue.svg)](LICENSE).
+[![Python Version](https://img.shields.io/badge/power-shell-green)](https://www.python.org)
+
+
 # nauss DFIR tool lite
 
 `nauss DFIR tool lite` is a PowerShell-based Digital Forensic and Incident Response (DFIR) tool designed to assist security analysts and enthusiasts with various DFIR-related tasks. The tool currently supports searching for hashes via VirusTotal, DNS/IP searches via SecurityTrails, and active network connections analysis using AbuseIPDB.
